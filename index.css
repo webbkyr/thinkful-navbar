@@ -62,6 +62,7 @@ img {
 
 .menu-ul {
     padding-left: 0px;
+    display: none;
 }
 
 #courses, #how-it-works, #reviews, #pricing, #sign-in {

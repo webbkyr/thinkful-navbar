@@ -9,9 +9,13 @@
 //ES6
 
 const main = () => {
+
   $('.hamburger').on('click', () => {
     console.log('I was clicked!');
+    $('.js-menu-main').toggle();
   });
+
+
 };
 
 $(() => {
