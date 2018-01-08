@@ -11,8 +11,15 @@
 const main = () => {
 
   $('.hamburger').on('click', () => {
-    console.log('I was clicked!');
     $('.js-menu-main').toggle();
+  });
+
+  $('#courses').on('click', () => {
+    $('.course-items').toggle();
+  });
+
+  $('#how-it-works').on('click', () => {
+    $('.info-items').toggle();
   });
 
 
