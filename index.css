@@ -6,15 +6,38 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: none;
+}
+
+.main-container {
+    width: 100%;
 }
 
 .hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 48px;
     height: 42px;
     border: 1px solid #eeeeef;
     border-radius: 2px;
     box-shadow: 0 0 2px #eeeeef;
     padding: 10px 10px;
+    margin: 8px; 
 }
 
 .hamburger-stripe {
@@ -23,5 +46,51 @@ body {
     margin-bottom: 5px;
 }
 
-/* Add your CSS here */
+.logo {
+    flex-grow: 1;
+    margin: 12px; 
+}
 
+#courses, #how-it-works, #reviews, #pricing, #sign-in {
+    text-transform: uppercase;
+}
+
+.top-nav-primary {
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    align-self: center;
+    flex: 1;
+    /* display: flex; */
+    padding-left: 0px;
+    
+}
+
+
+
+/* .top-nav-secondary {
+    padding-left: 2px;
+} */
+
+.nav-items {
+    flex-direction: column;
+}
+
+
+
+label::after {
+    display: block;
+    transition: all .35s;
+}
+
+.course-items {
+    transition: max-height .35s;
+}
+.hidden {
+    display: none;
+}
+
+/* .course-items,
+.info-items, 
+#reviews,
+#sign-in {
+    border-bottom: 1px solid;
+} */
