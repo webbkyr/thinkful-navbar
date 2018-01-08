@@ -53,22 +53,20 @@ img {
     margin: 12px; 
 }
 
-#courses, #how-it-works, #reviews, #pricing, #sign-in {
-    text-transform: uppercase;
-    margin-left: 0px;
-}
-
 .top-nav-primary {
-    /* background-color: rgba(255, 0, 0, 0.5); */
     align-self: center;
     flex: 1;
-    /* display: flex; */
     padding-left: 0px;
     
 }
 
 .menu-ul {
     padding-left: 0px;
+}
+
+#courses, #how-it-works, #reviews, #pricing, #sign-in {
+    text-transform: uppercase;
+    margin-left: 0px;
 }
 
 .courses-main,
@@ -83,36 +81,6 @@ img {
     padding-left: 10px;
 }
 
-.courses-main > a {
-    margin-left: 10px;
-}
-
-
-/* .top-nav-secondary {
-    padding-left: 2px;
-} */
-
-.nav-items {
-    flex-direction: column;
-}
-
-
-
-label::after {
-    display: block;
-    transition: all .35s;
-}
-
-.course-items {
-    transition: max-height .35s;
-}
 .hidden {
     display: none;
 }
-
-/* .course-items,
-.info-items, 
-#reviews,
-#sign-in {
-    border-bottom: 1px solid;
-} */
