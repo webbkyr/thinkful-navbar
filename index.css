@@ -17,6 +17,8 @@ li {
 
 a {
     text-decoration: none;
+    color: #6799ff;
+
 }
 
 img {
@@ -53,6 +55,7 @@ img {
 
 #courses, #how-it-works, #reviews, #pricing, #sign-in {
     text-transform: uppercase;
+    margin-left: 0px;
 }
 
 .top-nav-primary {
@@ -64,6 +67,25 @@ img {
     
 }
 
+.menu-ul {
+    padding-left: 0px;
+}
+
+.courses-main,
+.how-it-works-main,
+.reviews-main,
+.pricing-main,
+.reviews-main,
+.sign-in-main {
+    border: 1px solid lightgrey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.courses-main > a {
+    margin-left: 10px;
+}
 
 
 /* .top-nav-secondary {
