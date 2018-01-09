@@ -82,6 +82,23 @@ img {
     padding-left: 10px;
 }
 
+.course-list-items {
+    padding-left: 4px;
+    margin-top: 15px;
+    color: black;
+}
+
+.dev-bootcamp,
+.data-science {
+    padding-bottom: 15px;
+}
+
+.dev-link,
+.data-link,
+.all-courses-link {
+    color: black;
+}
+
 .hidden {
     display: none;
 }
