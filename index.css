@@ -53,12 +53,6 @@ img {
     margin: 12px; 
 }
 
-.top-nav-primary {
-    align-self: center;
-    flex: 1;
-    padding-left: 0px;
-    
-}
 
 .menu-ul {
     padding-left: 0px;
@@ -68,6 +62,12 @@ img {
 #courses, #how-it-works, #reviews, #pricing, #sign-in {
     text-transform: uppercase;
     margin-left: 0px;
+}
+
+@media only screen and (min-width: 575px) {
+    .hamburger {
+        display: none;
+    }
 }
 
 .courses-main,
@@ -82,20 +82,35 @@ img {
     padding-left: 10px;
 }
 
-.course-list-items {
+.course-list-items,
+.info-list-items {
     padding-left: 4px;
     margin-top: 15px;
     color: black;
 }
 
-.dev-bootcamp,
-.data-science {
+.dev-bootcamp-li,
+.data-science-li {
+    padding-bottom: 15px;
+}
+
+.mentorship-li,
+.career-prep-li,
+.job-guarantee-li,
+.outcomes-li {
     padding-bottom: 15px;
 }
 
 .dev-link,
 .data-link,
 .all-courses-link {
+    color: black;
+}
+
+.mentorship-link,
+.career-prep-link,
+.job-link,
+.outcome-link {
     color: black;
 }
 
